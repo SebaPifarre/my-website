@@ -40,14 +40,13 @@ body {
 
 .navbar {
   width: 100%;
-  background: var(--background);
+  height: 40px;
+  background-color: var(--background);
   position: fixed;
   top: 0;
   display: flex;
   align-items: center;
 }
-
-
 
 h1 {
   /* font-family: inter, sans-serif; */
@@ -93,4 +92,25 @@ h1 {
 .options[data-isPastThreshold = true]{
   border: 1px solid white;
   background-color: #375faf;
+}
+
+.banner{
+  background-image: url('./assets/img/banner-bg.png');
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-position: top center;
+  background-size: cover;
+
+}
+
+.main-logo{
+  height: 40vmin;
+  width: 40vmin;
+}
+
+.logo {
+  width: 80%;
+  height: min-content;
+  stroke: #bf4d00;
+  padding: 4%;
 }
